@@ -1,15 +1,52 @@
 {
-  "categories": [{
-    "_id": "1",
-    "name":"",
-    "display_name":"",
-    "description": ""
-  }],
-  "products": [{
-    "_id":"1", 
-    "category":"",
-    "name":"",
-    "display_name":"",
-    "description":""
-  }]
+  "categories": [
+    {
+      "_id": "1",
+      "name": "things",
+      "display_name": "things",
+      "description": "its some things"
+    },
+    {
+      "name": "stuff",
+      "display_name": "stuff",
+      "description": "is a box to hold the stuffs",
+      "_id": "j1jVbu6"
+    },
+    {
+      "name": "thingtodelete",
+      "display_name": "thingto deleete",
+      "description": "to be edeleted",
+      "_id": "6vzAK47"
+    }
+  ],
+  "products": [
+    {
+      "_id": "1",
+      "category": "things",
+      "name": "thing1",
+      "display_name": "thing thing1",
+      "description": "its a thing item that is 1"
+    },
+    {
+      "category": "things",
+      "name": "thing2",
+      "display_name": "thing2",
+      "description": "it is a thing item that is a 2",
+      "_id": "G5KUJoa"
+    },
+    {
+      "category": "stuff",
+      "name": "stuff1",
+      "display_name": "stuff1",
+      "description": "it is a stuff item that is a 2",
+      "_id": "5Y3G5L5"
+    },
+    {
+      "category": "stuff",
+      "name": "stuff2",
+      "display_name": "stuff2",
+      "description": "it is a stuff item that is a 2",
+      "_id": "KfChcoA"
+    }
+  ]
 }
